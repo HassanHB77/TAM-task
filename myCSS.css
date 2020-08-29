@@ -1,0 +1,116 @@
+body {
+  font-family: Dubai;
+}
+
+div.main {
+  width: 100%;
+  height: 1024pt;
+  display: table;
+}
+
+div.left {
+  height: 100%;
+  width: 100%;
+  text-align: right;
+}
+
+div.right {
+  width: 200pt;
+  height: 100%;
+  font-size: 18px;
+  text-align: right;
+  color: #edf4fc;
+}
+
+input.search {
+  border-block-color: unset;
+  text-align: right;
+}
+
+img.logo {
+  width: 83px;
+  height: 32px;
+  margin: 16pt;
+  float: right;
+}
+
+img.closeRight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10pt;
+  margin: 7.65pt;
+  filter: invert(100%) sepia(28%) saturate(0%) hue-rotate(78deg)
+    brightness(110%) contrast(100%);
+}
+
+img.itemIcon {
+  height: 15pt;
+  margin: 8pt;
+  filter: invert(100%) sepia(28%) saturate(0%) hue-rotate(78deg)
+    brightness(110%) contrast(100%);
+}
+
+img.checkIcon {
+  height: 24px;
+  width: 24px;
+  margin: 8px;
+}
+
+img.avatar {
+  height: 48px;
+  margin: 48px;
+  margin: 8px;
+}
+
+th.title {
+  width: 100%;
+  text-align: right;
+  font-size: 18px;
+}
+
+th.lefttitle {
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  padding-right: 8px;
+  padding-top: 30px;
+  background-color: #f9f9f9;
+}
+
+th.showmenuicon {
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 8px;
+  }
+
+th.leftlist {
+  font-size: 20px;
+  margin-right: 16px;
+  background-color: #ffffff;
+}
+
+th.name {
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+}
+
+td.right {
+  width: 200px;
+}
+
+td.left {
+  width: 824pt;
+}
+
+p.roundedText {
+  color: #535353;
+  font-size: 13px;
+  padding: 8px;
+  margin-left: 25px;
+  border-radius: 25px;
+  background-color: #e0e0e0;
+  float: none;
+}
